@@ -1,0 +1,8 @@
+package: .
+import:
+- package: github.com/coreos/etcd
+  version: ^3.2.1
+  subpackages:
+  - clientv3
+- package: gopkg.in/alecthomas/kingpin.v2
+  version: ^2.2.4
